@@ -1,0 +1,96 @@
+.pageWrap {
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1;
+  height: 100vh;
+}
+.page1 {
+  z-index: 1;
+  width: 300px;
+}
+.page2 {
+  z-index: 99;
+  color: white;
+}
+.sidebarMenu {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100vh;
+  background-color: #263392;
+  transition: right 0.5s;
+}
+
+.sidebarMenu.active {
+  right: 0;
+}
+
+.sidebarButtonWrap {
+  display: flex;
+  justify-content: center;
+}
+.XButton {
+  background-color: #263392;
+  border: none;
+  color: white;
+  margin: 10px;
+}
+.userInfo {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.photo {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+}
+.nameStudentNumMajor {
+  margin: 5px;
+  height: 70px;
+}
+.nameStudentNum {
+  display: flex;
+  margin: 5px;
+}
+
+.name {
+  padding: 5px;
+}
+.studentNum {
+  padding: 5px;
+}
+
+.changeLogout {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.change {
+  margin-right: 15px;
+}
+.logout {
+  margin-left: 15px;
+}
+
+hr {
+  width: 300px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sidebarContents {
+  padding-left: 15px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.question {
+  display: flex;
+  justify-content: center;
+}
