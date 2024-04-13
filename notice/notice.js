@@ -58,23 +58,28 @@ const Notice = () => {
                 </Link>
               </div>
             </div>
-            <div className="lineTable">
+            <div className="linePage">
               <div className="line"></div>
               <div className="noticeTableWrap">
                 <table className="noticeTable">
                   <thead>
                     <tr>
-                      <td>구분</td>
-                      <td>제목</td>
-                      <td>작성자</td>
-                      <td>날짜</td>
+                      <td className="tableNumber">구분</td>
+                      <td className="tableTitle">제목</td>
+                      <td className="tableWriter">작성자</td>
+                      <td className="tableDate">날짜</td>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>1</td>
                       <td>
-                        <Link to="/NoticeContents">수강 신청 안내</Link>
+                        <Link
+                          to="/NoticeContents"
+                          className="tableTitleContents"
+                        >
+                          수강 신청 안내
+                        </Link>
                       </td>
                       <td>학사과</td>
                       <td>2024. 03. 16</td>
