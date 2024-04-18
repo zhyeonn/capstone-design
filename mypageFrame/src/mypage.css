@@ -1,0 +1,177 @@
+.logoSidebar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.sidebarButton {
+  background-color: white;
+  border: none;
+}
+
+.pageTitle {
+  position: relative;
+  font-size: 30px;
+  height: 80px;
+  top: 40px;
+  left: 270px;
+}
+
+.rowHr2 {
+  position: relative;
+}
+
+.myPageBoard {
+  width: 200px;
+}
+
+.line {
+  position: absolute;
+  top: 147px;
+}
+
+.page1 {
+  z-index: 1;
+  width: 100%;
+}
+.page2 {
+  z-index: 99;
+  color: white;
+}
+
+.pageContents {
+  display: flex;
+}
+
+.linePage {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+.line {
+  border-left: 1px solid black;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.noticeTableWrap {
+  margin: 10px;
+}
+
+.myPageBoard {
+  margin: 10px;
+}
+
+.myPage {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.board {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.myPageBoardTitle {
+  color: #263392;
+  margin: 5px;
+}
+
+.myPageBoardMenu {
+  color: black;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.thisPage {
+  color: black;
+  text-decoration: none;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.sidebarMenu {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100vh;
+  background-color: #263392;
+  transition: right 0.5s;
+}
+
+.sidebarMenu.active {
+  right: 0;
+}
+
+.sidebarButtonWrap {
+  display: flex;
+  justify-content: center;
+}
+.XButton {
+  background-color: #263392;
+  border: none;
+  color: white;
+  margin: 10px;
+}
+.userInfo {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.photo {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+}
+.nameStudentNumMajor {
+  margin: 5px;
+  height: 70px;
+}
+.nameStudentNum {
+  display: flex;
+  margin: 5px;
+}
+
+.name {
+  padding: 5px;
+}
+.studentNum {
+  padding: 5px;
+}
+
+.changeLogout {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.change {
+  margin-right: 15px;
+}
+.logout {
+  margin-left: 15px;
+}
+
+.sidebarHr hr {
+  width: 300px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sidebarContents {
+  padding-left: 15px;
+}
+
+.logoInSidebar {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.question {
+  display: flex;
+  justify-content: center;
+}
