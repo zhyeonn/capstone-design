@@ -1,0 +1,39 @@
+.table1 {
+  border-collapse: collapse;
+  text-align: center;
+  margin: 10px;
+  width: 850px;
+  height: 600px;
+  border: 1px solid black;
+}
+
+.table1 th,
+.table1 td {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  width: 100px;
+  height: 30px;
+}
+
+.table2 {
+  border-collapse: collapse;
+  text-align: center;
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  background-color: rgb(155, 163, 172);
+}
+
+.table2 th,
+.table2 td {
+  width: 100px;
+  height: 30px;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-left: none;
+  color: white;
+}
+.table2 thead > tr {
+  border-bottom: 3px solid white;
+}
