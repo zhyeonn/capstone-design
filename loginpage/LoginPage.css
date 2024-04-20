@@ -37,7 +37,7 @@
   border: none;
 }
 
-.button:disabled {
+.loginButton:disabled {
   background-color: gray;
   color: white;
 }
@@ -50,4 +50,25 @@
   text-decoration: none;
   color: black;
   font-size: 15px;
+}
+
+.searchPasswordButton {
+  background-color: #263392;
+  color: white;
+  cursor: pointer;
+  width: 215px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+.searchPasswordButton:disabled {
+  background-color: gray;
+  color: white;
+}
+
+.codeLink {
+  text-decoration: none;
+  color: white;
 }
