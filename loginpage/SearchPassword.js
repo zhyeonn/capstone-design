@@ -1,5 +1,5 @@
 import React from "react";
-import "./SearchPassword.css";
+import "./LoginPage.css";
 import { useState, useEffect } from "react";
 
 const SearchPassword = () => {
