@@ -4,7 +4,7 @@ import "./Calculator.css";
 const Table = () => {
   return (
     <div>
-      <table className="table1">
+      <table className="CalculatorTable1">
         <thead>
           <tr>
             <th colSpan="2">구분</th>
@@ -43,7 +43,7 @@ const Table = () => {
           <tr>
             <td>선택</td>
             <td colSpan="3">
-              <table className="table2">
+              <table className="CalculatorTable2">
                 <thead>
                   <tr>
                     <td>소영역</td>
