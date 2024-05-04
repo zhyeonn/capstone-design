@@ -61,23 +61,31 @@ table td:last-child {
   border-right: 0;
 }
 
-.tableNumber {
+.noticeTableNumber {
   width: 50px;
+  text-align: center;
 }
 
-.tableTitle {
+.noticeTableTitle {
   width: 300px;
+  text-align: center;
 }
 
-.tableWriter {
+.noticeTableTitle.notCenter {
+  text-align: left;
+}
+
+.noticeTableWriter {
   width: 100px;
+  text-align: center;
 }
 
-.tableDate {
+.noticeTableDate {
   width: 100px;
+  text-align: center;
 }
 
-.tableTitleContents {
+.noticeTableTitleContents {
   text-decoration: none;
   color: black;
 }
