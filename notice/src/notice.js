@@ -11,25 +11,25 @@ const Notice = () => {
             <table className="noticeTable">
               <thead>
                 <tr>
-                  <td className="noticeTableNumber">구분</td>
-                  <td className="noticeTableTitle">제목</td>
-                  <td className="noticeTableWriter">작성자</td>
-                  <td className="noticeTableDate">날짜</td>
+                  <td className="noticeTdIndex ntIndex">구분</td>
+                  <td className="noticeTdTitle ntTitle">제목</td>
+                  <td className="noticeTdWriter ntWriter">작성자</td>
+                  <td className="noticeTdDate ntDate">날짜</td>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td className="noticeTableNumber">1</td>
-                  <td className="noticeTableTitle notCenter">
+                  <td className="noticeTdNumber">1</td>
+                  <td className="noticeTdTitle notCenter">
                     <Link
                       to="/NoticeContents"
-                      className="noticeTableTitleContents"
+                      className="noticeTdTitleContents"
                     >
                       수강 신청 안내
                     </Link>
                   </td>
-                  <td className="noticeTableWriter">학사과</td>
-                  <td className="noticeTableDate">2024. 03. 16</td>
+                  <td className="noticeTdWriter">학사과</td>
+                  <td className="noticeTdDate">2024. 03. 16</td>
                 </tr>
               </tbody>
             </table>
