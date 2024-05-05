@@ -5,7 +5,7 @@ table {
 
 table th,
 table td {
-  border: 1px black solid;
+  border: 1px #cfcfcf solid;
   border-top: none;
   height: 30px;
   padding: 5px;
@@ -100,12 +100,33 @@ table td:last-child {
   text-align: left;
 }
 
-.boardTdName {
+.boardTdWriter {
   width: 80px;
   text-align: center;
 }
 
 .boardTdDate {
-  width: 80px;
+  width: 100px;
   text-align: center;
+}
+
+.boardTdTitleContents {
+  text-decoration: none;
+  color: black;
+}
+
+.boardTdIndex.btIndex {
+  border-bottom: #cfcfcf 5px solid;
+}
+
+.boardTdTitle.btTitle {
+  border-bottom: #cfcfcf 5px solid;
+}
+
+.boardTdWriter.btWriter {
+  border-bottom: #cfcfcf 5px solid;
+}
+
+.boardTdDate.btDate {
+  border-bottom: #cfcfcf 5px solid;
 }
