@@ -16,9 +16,11 @@ const ExboardItem = (props) => {
           <tr>
             <td className="boardTdIndex">{props.index + 1}</td>
             <td className="boardTdTitle notCenter">
-              <Link to="/BoardContents">{props.title}</Link>
+              <Link to="/BoardContents" className="boardTdTitleContents">
+                {props.title}
+              </Link>
             </td>
-            <td className="boardTdName">name</td>
+            <td className="boardTdWriter">name</td>
             <td className="boardTdDate">{formattedDate}</td>
           </tr>
         </tbody>
