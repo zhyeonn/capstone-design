@@ -81,6 +81,28 @@ table td:last-child {
   align-items: center;
 }
 
+.boardWriteTitle {
+  width: 300px;
+  margin: 5px;
+}
+
+.boardWriteContents {
+  width: 300px;
+  margin: 5px;
+  height: 200px;
+}
+
+.boardRegisterButton {
+  width: 70px;
+  height: 25px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #263392;
+  color: white;
+  border: none;
+}
+
 .boardRegisterButton:disabled {
   background-color: gray;
   color: white;
@@ -129,4 +151,23 @@ table td:last-child {
 
 .boardTdDate.btDate {
   border-bottom: #cfcfcf 5px solid;
+}
+
+.boardCommentInput {
+  border-radius: 5px;
+  margin: 5px;
+  width: 400px;
+}
+
+.boardCommentButton {
+  color: white;
+  background-color: #263392;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.boardCommentButton:disabled {
+  background-color: gray;
+  color: white;
 }
